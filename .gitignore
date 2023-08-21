@@ -1,0 +1,12 @@
+# Ignore build artifacts
+build/
+dist/
+node_modules/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore sensitive information
+config.js
+secrets.txt
