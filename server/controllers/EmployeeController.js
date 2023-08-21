@@ -36,7 +36,6 @@ exports.getall = (req,res)=>{
     
 }
 exports.delete = (req,res)=>{
-    console.log(req.params.id,req.query.id)
     const id=req.params.id;
     Employee.findByIdAndDelete(id)
     .then(data=>{
